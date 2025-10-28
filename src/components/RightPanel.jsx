@@ -13,7 +13,7 @@ const WidgetCard = ({ title, children, icon: Icon }) => (
 
 const RightPanel = () => {
   return (
-    <aside className="hidden xl:block w-80 shrink-0 h-[calc(100dvh-56px)] sticky top-14 border-l border-gray-100 bg-gray-50/60 p-4 space-y-4">
+    <aside className="hidden xl:block w-80 shrink-0 h-[calc(100vh-56px)] sticky top-14 border-l border-gray-100 bg-gray-50/60 p-4 space-y-4">
       <WidgetCard title="Timer" icon={TimerIcon}>
         <div className="flex items-center justify-between">
           <div>

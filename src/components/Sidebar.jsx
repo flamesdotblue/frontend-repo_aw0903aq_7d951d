@@ -15,7 +15,7 @@ const NavItem = ({ icon: Icon, label, active }) => (
 
 const Sidebar = () => {
   return (
-    <aside className="hidden md:flex md:flex-col md:w-60 shrink-0 border-r border-gray-100 bg-white h-[calc(100dvh-56px)] sticky top-14">
+    <aside className="hidden md:flex md:flex-col md:w-60 shrink-0 border-r border-gray-100 bg-white h-[calc(100vh-56px)] sticky top-14">
       <nav className="p-3 space-y-1">
         <NavItem icon={Home} label="Dashboard" active />
         <NavItem icon={Brain} label="Study Techniques" />
